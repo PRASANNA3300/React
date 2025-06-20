@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input:first-child {
+  margin-top: 20px;
+}
+
+.butttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.butttonContainer button:last-child {
+  margin-left: 10px;
+  background-color: red;
+}
+
+.form input {
+  border: 1px solid #cccccc;
+  padding: 12px 10px;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.form button {
+  background-color: aquamarine;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dataTable {
+  margin-top: 30px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+}
+
+table button {
+  border: none;
+  outline: none;
+  background: yellow;
+  padding: 6px 10px;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+table button:last-child {
+  background-color: red;
+}
